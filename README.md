@@ -125,7 +125,7 @@ Please refer to the architecture diagram below:
 
 2. Log into [Amazon S3 Console](https://s3.console.aws.amazon.com/s3/buckets), within a few seconds, you should see a `draft-blog.pdf` file uploaded into the the `MyOutputBucketName` S3 bucket. Download the file from the bucket using the below command and validate the content.
    ```bash
-   aws s3 cp s3://{MyOutputBucketName}/draft-blog.pdf ./draft-blog.pdf
+   aws s3 cp s3://{MyOutputBucketName}/draft-blog.pdf ./draft-blog.pdf --region {your-region}
    ```
 
 ## Cleanup
