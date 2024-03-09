@@ -21,12 +21,12 @@ Amazon Bedrock users need to request access to models before they are available 
 
 1. Create a new directory, navigate to that directory in a terminal and clone the GitHub repository:
    ```bash
-   git clone https://github.com/aws-samples/serverless-patterns
+   git clone https://github.com/biswanathmukherjee/s3-lambda-bedrock-sam.git
    ```
 
 2. Change directory to the pattern directory:
    ```bash
-   cd serverless-patterns/s3-lambda-bedrock-sam
+   cd s3-lambda-bedrock-sam
    ```
 
 3. From the command line, use AWS SAM to deploy the AWS resources for the pattern as specified in the template.yml file:
@@ -151,8 +151,4 @@ Please refer to the architecture diagram below:
    sam delete
    ```
 
----
 
-Copyright 2024 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-
-SPDX-License-Identifier: MIT-0
